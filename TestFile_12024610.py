@@ -20,9 +20,4 @@ def remove_car(spot):
     else:
         output_a_message("The car has already been removed!")
 
-def check_spot(spot):
-    if spot in parking_lot:
-        output_a_message(f"The car has already been parked by another one! Spot {spot} was taken by car ")
-    else:
-        output_a_message("Car has been successfuly parked!")
-        park_car = parking
+print("Meow")
